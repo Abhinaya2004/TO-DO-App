@@ -1,0 +1,145 @@
+body{
+    background-color:#FEFAF6;
+    margin: 0;
+    
+}
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:3rem;
+    margin-right: 12%;
+    margin-left: 12%;
+    border: 1px solid #27374D;
+    padding: 1rem;
+    text-align: center;
+}
+
+form{
+    border: 1px solid rgb(1, 1, 1);
+    
+}
+
+.FormContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+    margin:2rem 0;
+}
+
+.FormContainer div{
+    width:35%
+}
+
+.FormContainer form{
+    padding: 1rem;
+    padding-top: 1.5rem;
+    /* width: 100%; */
+    background-color: #27374D;
+    border-radius: 5px;
+}
+
+.FormContainer label{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+
+.FormContainer input,select{
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    border-radius: 15px;
+
+}
+
+.FormContainer .btn{
+    background-color: #b5d9ef;
+    font-weight: 300;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.FormContainer .btn:hover{
+    background-color: #a0d0ed;
+    cursor: pointer;
+}
+
+.FormContainer h3{
+    font-size: 25px;
+    color:#27374D;
+    text-decoration: underline;
+}
+
+.categoryItem{
+    background-color: #9DB2BF;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1;
+    font-family:cursive;
+    text-transform: uppercase;
+    color: #27374D;
+}
+
+.todoItem{
+    background-color:#DDE6ED;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 0.1;
+    font-family:cursive;
+    text-transform: uppercase;
+    color: #27374D;
+}
+
+.todoItem button{
+    margin-left: 0.5rem;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    border: none;
+}
+
+.todoItem .delete{
+    background-color: rgb(232, 45, 45);
+    color:white;
+}
+.todoItem .delete:hover{
+    background-color: rgb(225, 12, 12);
+    cursor: pointer;
+}
+
+.todoItem .update{
+    background-color: rgb(64, 134, 200);
+    color:white;
+}
+
+.todoItem .update:hover{
+    background-color: rgb(44, 126, 203);
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+ .modal button {
+    margin: 10px;
+    padding: 8px 16px;
+  }
